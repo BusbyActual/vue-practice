@@ -5,7 +5,7 @@ export default {
 return (
 <md-card>
   <md-card-media>
-    <img src="assets/card-image-1.jpg" alt="People">
+    <img src="assets/card-image-1.jpg" alt="People"></img>
   </md-card-media>
 
   <md-card-header>
@@ -50,7 +50,7 @@ return (
   </md-card-header>
 
   <md-card-media>
-    <img src="assets/card-image-1.jpg" alt="People">
+    <img src="assets/card-image-1.jpg" alt="People"></img>
   </md-card-media>
 
   <md-card-content>
@@ -59,7 +59,7 @@ return (
 
 <md-card>
   <md-card-media>
-    <img src="assets/card-image-2.jpg" alt="People">
+    <img src="assets/card-image-2.jpg" alt="People"></img>
   </md-card-media>
 
   <md-card-content>
@@ -70,7 +70,7 @@ return (
 
 <md-card>
   <md-card-media>
-    <img src="assets/card-image-2.jpg" alt="People">
+    <img src="assets/card-image-2.jpg" alt="People"></img>
   </md-card-media>
 
   <md-card-header>
