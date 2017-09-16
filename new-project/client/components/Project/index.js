@@ -3,6 +3,7 @@ import style from './style.css'
 export default {
   render(h) {
 return (
+  <div>
 <md-card>
   <md-card-media>
     <img src="assets/card-image-1.jpg" alt="People"></img>
@@ -54,7 +55,8 @@ return (
   </md-card-media>
 
   <md-card-content>
-  , quinoa swag af ramps snackwave irony poke. Aesthetic actually XOXO lomo, DIY beard poke vinyl godard trust fund hoodie skateboard seitan hot chicken mixtape. Drinking vinegar organic occupy, truffaut vinyl palo santo yuccie tbh. Seitan small batch unicorn pinterest 90's hoodie hashtag master cleanse dreamcatcher kitsch. Pinterest flexitarian craft beer celiac kogi crucifix kale chips adaptogen ramps synth portland asymmetrical roof party trust fund. Chillwave jean shorts man bun,
+  quinoa swag af ramps snackwave irony poke. Aesthetic actually XOXO lomo, DIY beard poke vinyl godard trust fund hoodie skateboard seitan hot chicken mixtape. Drinking vinegar organic occupy, truffaut vinyl palo santo yuccie tbh. Seitan small batch unicorn pinterest 90's hoodie hashtag master cleanse dreamcatcher kitsch. Pinterest flexitarian craft beer celiac kogi crucifix kale chips adaptogen ramps synth portland asymmetrical roof party trust fund. Chillwave jean shorts man bun,
+  </md-card-content>
 </md-card>
 
 <md-card>
@@ -64,7 +66,7 @@ return (
 
   <md-card-content>
    wayfarers deep v vice twee try-hard gochujang hoodie schlitz humblebrag
-  </md-card-content>
+
   </md-card-content>
 </md-card>
 
@@ -83,6 +85,7 @@ return (
     <md-button>Action</md-button>
   </md-card-actions>
 </md-card>
+</div>
     )
   }
 }
