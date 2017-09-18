@@ -3,11 +3,11 @@ import style from './style.css'
 export default {
   render(h) {
     return (
-      <div>
+      <md-toolbar>
         <button>Home</button>
         <button>Projects</button>
         <button>About</button>
-      </div>
+      </md-toolbar>
     )
   }
 }
