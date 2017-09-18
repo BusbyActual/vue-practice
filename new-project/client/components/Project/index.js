@@ -6,7 +6,7 @@ return (
 <md-layout md-gutter>
 
 <md-layout md-flex-large="15"> </md-layout>
-  <md-layout md-flex-xsmall="100" md-flex-small="50" md-flex-medium="50" md-flex-large="70">
+  <md-layout md-flex-xsmall="100" md-flex-small="50" md-flex-large="70">
 <md-card >
   <md-card-media>
     <img src="assets/card-image-1.jpg" alt="People"></img>
@@ -29,7 +29,9 @@ return (
 </md-layout>
 <md-layout md-flex-large="15"> </md-layout>
 
-<md-card  md-flex-xsmall="100" md-flex-small="50" md-flex-medium="33">
+<md-layout md-flex-large="15"> </md-layout>
+  <md-layout md-flex-xsmall="100" md-flex-small="50" md-flex-large="70">
+  <md-card>
   <md-card-header>
     <md-card-header-text>
       <div class="md-title">Title goes here</div>
@@ -54,7 +56,6 @@ return (
       </md-menu-content>
     </md-menu>
   </md-card-header>
-
   <md-card-media>
     <img src="assets/card-image-1.jpg" alt="People"></img>
   </md-card-media>
@@ -63,6 +64,8 @@ return (
   quinoa swag af ramps snackwave irony poke. Aesthetic actually XOXO lomo, DIY beard poke vinyl godard trust fund hoodie skateboard seitan hot chicken mixtape. Drinking vinegar organic occupy, truffaut vinyl palo santo yuccie tbh. Seitan small batch unicorn pinterest 90's hoodie hashtag master cleanse dreamcatcher kitsch. Pinterest flexitarian craft beer celiac kogi crucifix kale chips adaptogen ramps synth portland asymmetrical roof party trust fund. Chillwave jean shorts man bun,
   </md-card-content>
 </md-card>
+  </md-layout>
+<md-layout md-flex-large="15"> </md-layout>
 
 <md-card  md-flex-xsmall="100" md-flex-small="50" md-flex-medium="33">
   <md-card-media>
