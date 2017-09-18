@@ -3,8 +3,9 @@ import style from './style.css'
 export default {
   render(h) {
 return (
-  <div>
-<md-card>
+<md-layout md-gutter>
+
+<md-card  md-flex-xsmall="100" md-flex-small="50" md-flex-medium="33">
   <md-card-media>
     <img src="assets/card-image-1.jpg" alt="People"></img>
   </md-card-media>
@@ -24,7 +25,7 @@ return (
   </md-card-content>
 </md-card>
 
-<md-card>
+<md-card  md-flex-xsmall="100" md-flex-small="50" md-flex-medium="33">
   <md-card-header>
     <md-card-header-text>
       <div class="md-title">Title goes here</div>
@@ -59,7 +60,7 @@ return (
   </md-card-content>
 </md-card>
 
-<md-card>
+<md-card  md-flex-xsmall="100" md-flex-small="50" md-flex-medium="33">
   <md-card-media>
     <img src="assets/card-image-2.jpg" alt="People"></img>
   </md-card-media>
@@ -70,7 +71,7 @@ return (
   </md-card-content>
 </md-card>
 
-<md-card>
+<md-card md-flex-xsmall="100" md-flex-small="50" md-flex-medium="33">
   <md-card-media>
     <img src="assets/card-image-2.jpg" alt="People"></img>
   </md-card-media>
@@ -85,7 +86,7 @@ return (
     <md-button>Action</md-button>
   </md-card-actions>
 </md-card>
-</div>
+</md-layout>
     )
   }
 }
