@@ -5,7 +5,9 @@ export default {
 return (
 <md-layout md-gutter>
 
-<md-card  md-flex-xsmall="100" md-flex-small="50" md-flex-medium="33">
+<md-layout md-flex-large="15"> </md-layout>
+  <md-layout md-flex-xsmall="100" md-flex-small="50" md-flex-medium="50" md-flex-large="70">
+<md-card >
   <md-card-media>
     <img src="assets/card-image-1.jpg" alt="People"></img>
   </md-card-media>
@@ -24,6 +26,8 @@ return (
   Actually austin tbh 3 wolf moon single-origin coffee farm-to-table bespoke. Everyday carry occupy try-hard pitchfork meggings. Tilde poke hashtag, raclette pour-over semiotics gochujang 8-bit echo park neutra roof party stumptown kitsch microdosing etsy. Roof party next level tofu meh humblebrag banh mi marfa master cleanse four loko small batch normcore gentrify truffaut fanny pack VHS. Tumeric photo booth microdosing, kickstarter copper mug succulents brooklyn godard air plant authentic kale chips single-origin coffee. VHS yuccie master cleanse unicorn
   </md-card-content>
 </md-card>
+</md-layout>
+<md-layout md-flex-large="15"> </md-layout>
 
 <md-card  md-flex-xsmall="100" md-flex-small="50" md-flex-medium="33">
   <md-card-header>
