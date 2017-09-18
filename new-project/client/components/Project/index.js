@@ -67,18 +67,11 @@ return (
   </md-layout>
 <md-layout md-flex-large="15"> </md-layout>
 
-<md-card  md-flex-xsmall="100" md-flex-small="50" md-flex-medium="33">
-  <md-card-media>
-    <img src="assets/card-image-2.jpg" alt="People"></img>
-  </md-card-media>
 
-  <md-card-content>
-   wayfarers deep v vice twee try-hard gochujang hoodie schlitz humblebrag
+<md-layout md-flex-large="15"> </md-layout>
+  <md-layout md-flex-xsmall="100" md-flex-small="50" md-flex-large="70">
+  <md-card>
 
-  </md-card-content>
-</md-card>
-
-<md-card md-flex-xsmall="100" md-flex-small="50" md-flex-medium="33">
   <md-card-media>
     <img src="assets/card-image-2.jpg" alt="People"></img>
   </md-card-media>
@@ -92,8 +85,23 @@ return (
     <md-button>Action</md-button>
     <md-button>Action</md-button>
   </md-card-actions>
+
+
+  <md-card-content>
+   Seitan small batch unicorn pinterest 90's hoodie hashtag master cleanse dreamcatcher kitsch. Pinterest flexitarian craft beer celiac kogi crucifix kale chips adaptogen ramps synth portland asymmetrical roof party trust fund. Chillwave jean shorts man bun,
+
+  </md-card-content>
+
+
+
 </md-card>
+<md-layout md-flex-large="15"> </md-layout>
 </md-layout>
+
+
+
+  </md-layout>
+
     )
   }
 }
