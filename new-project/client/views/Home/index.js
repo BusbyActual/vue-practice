@@ -10,9 +10,6 @@ export default {
         <Nav />
         <Project />
         <Counter />
-        <p>
-          To get started, edit files in <code>./client</code> and save.
-        </p>
       </div>
     )
   }
