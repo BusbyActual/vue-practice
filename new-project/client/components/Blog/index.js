@@ -2,7 +2,11 @@ import style from './style.css'
 
 export default {
   render(h) {
-return (<md-card>
+return (
+
+<md-layout>
+
+<md-card>
   <md-card-media>
     <img src="assets/card-image-1.jpg" alt="People"></img>
   </md-card-media>
@@ -82,6 +86,7 @@ return (<md-card>
     <md-button>Action</md-button>
   </md-card-actions>
 </md-card>
+  </md-layout>
 
   )
   }
