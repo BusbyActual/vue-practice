@@ -6,6 +6,7 @@ return (
 
 <md-layout>
 
+<md-layout>
 <md-card>
   <md-card-media>
     <img src="assets/card-image-1.jpg" alt="People"></img>
@@ -86,6 +87,12 @@ return (
     <md-button>Action</md-button>
   </md-card-actions>
 </md-card>
+</md-layout>
+
+<md-layout md-flex-large="10">
+</md-layout>
+
+
   </md-layout>
 
   )
