@@ -8,8 +8,14 @@ export default {
     return (
       <div class="page" >
         <Nav />
-        <Project />
-        <Blog />
+        <md-layout>
+          <md-layout md-flex-large="75">
+            <Project />
+          </md-layout>
+          <md-layout>
+            <Blog />
+          </md-layout>
+        </md-layout>
       </div>
     )
   }
