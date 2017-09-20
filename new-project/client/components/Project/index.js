@@ -85,7 +85,9 @@ return (
     <md-button>Action</md-button>
     <md-button>Action</md-button>
   </md-card-actions>
-
+  <md-card-media>
+    <img src="assets/card-image-2.jpg" alt="People"></img>
+  </md-card-media>
 
   <md-card-content>
    Seitan small batch unicorn pinterest 90's hoodie hashtag master cleanse dreamcatcher kitsch. Pinterest flexitarian craft beer celiac kogi crucifix kale chips adaptogen ramps synth portland asymmetrical roof party trust fund. Chillwave jean shorts man bun,
